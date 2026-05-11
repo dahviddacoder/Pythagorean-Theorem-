@@ -1,10 +1,6 @@
-
 triangle = str(input("Is your shape a right triangle? (yes/no)"))
 
-"yes" == True
-"no" == False
-
-if triangle == "yes":
+if triangle == "yes" or "Yes":
     print("Your shape is a right triangle.")
     first_side = float(input("What is the length of the first side?"))
     second_side = float(input("What is the length of the second side?"))
